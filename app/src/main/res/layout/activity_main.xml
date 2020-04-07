@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Insira seu nome completo"
+            android:inputType="textPersonName" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Insira seu número"
+            android:inputType="number" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textContato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entrar em contato através:"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/celular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefone (Celular)" />
+
+        <CheckBox
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail" />
+
+        <CheckBox
+            android:id="@+id/mensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mensagem de Texto" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkbox"
+            android:text="Cadastrar" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="limpar"
+            android:text="limpar" />
+
+        <TextView
+            android:id="@+id/textoInformacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informações:"
+            android:textSize="18sp"
+            tools:text="Informações:" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editNome2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insira Seu Nome"
+        android:inputType="textPersonName" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTelefone2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe seu Telefone"
+        android:inputType="number" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar em contato através:"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/fone3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefone (Celular)" />
+
+    <CheckBox
+        android:id="@+id/email3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail" />
+
+    <CheckBox
+        android:id="@+id/sms3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensagen de Texto" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="checkbox"
+        android:text="Cadastrar" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="limpar"
+        android:text="limpar" />
+
+    <TextView
+        android:id="@+id/textoResultado3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informações:"
+        android:textSize="18sp"
+        tools:text="Informações:" />
+</LinearLayout>
